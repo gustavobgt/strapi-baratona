@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_home_header_hello_boxes",
+  "info": {
+    "name": "hello_box",
+    "icon": "grin"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string",
+      "required": true
+    },
+    "emoji": {
+      "type": "string"
+    }
+  }
+}

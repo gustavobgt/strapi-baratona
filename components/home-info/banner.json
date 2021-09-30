@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_home_info_banners",
+  "info": {
+    "name": "banner",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    },
+    "alt": {
+      "type": "string",
+      "required": true,
+      "minLength": 2,
+      "maxLength": 55
+    },
+    "advertisement": {
+      "type": "richtext",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_section_image_grid_sections",
+  "info": {
+    "name": "grid_image",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
+    }
+  }
+}

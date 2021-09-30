@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_home_info_card_balances",
+  "info": {
+    "name": "card_balance",
+    "icon": "credit-card"
+  },
+  "options": {},
+  "attributes": {
+    "header_text": {
+      "type": "string",
+      "required": true
+    },
+    "currency_type": {
+      "type": "string",
+      "required": true
+    },
+    "action_text": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "screens",
+  "info": {
+    "name": "Screen",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-header.hello-box"
+    },
+    "info": {
+      "type": "dynamiczone",
+      "components": [
+        "home-info.banner",
+        "home-info.card-balance"
+      ],
+      "required": true
+    },
+    "group_id": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "screen_type": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "statment",
+        "medications"
+      ],
+      "required": true
+    }
+  }
+}
